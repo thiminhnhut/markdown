@@ -8,6 +8,8 @@ Thời gian: Ngày 22 tháng 02 năm 2017
 
 1. [Markdown Cheat Sheet](http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet)
 
+2. [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)
+
 ## Giới thiệu
 
 Chúng ta có thể sử dụng ngôn ngữ đánh dấu `Markdown` để viết nội dung cho file `REAMD.md` 
@@ -129,6 +131,30 @@ Các dấu này có thể lồng ghép vào nhau.
 * Thụt vào đầu dòng với 4 dấu cách so với đoạn hiện hành để định dạng code.
 
 * Ví dụ: [Định dạng code](https://github.com/thiminhnhut/markdown/blob/ccd00b375e6d4d3b60d2a12e8066860457d2a624/github-markdown/examples/code-block.md)
+
+* Ví dụ một cách định dạng code khác:
+
+	+ Cú pháp:
+	
+			```python
+			
+			def tong(a, b):
+			
+				return a + b
+			
+			```
+			
+	+ Kết quả:
+	
+	```python
+			
+	def tong(a, b):
+			
+		return a + b
+
+	```
+	
+	+ Các ngôn ngữ được hỗ trợ theo cách định dạng trên: [Ngôn ngữ](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown).
 
 ### Chèn hình
 
